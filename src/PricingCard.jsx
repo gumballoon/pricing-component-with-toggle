@@ -15,8 +15,8 @@ function PricingCard({ title, annuallyPrice, monthlyPrice, storage, users, gb, h
     
     return (
         <div className={allClasses.join(' ')}>
-            <h3 className='fw-700 fs-5'>{title}</h3>
-            <h2 className={'fw-700 py-4 my-0 border-bottom d-flex align-items-center justify-content-center' + ' ' + priceColor}><small className='fs-2'>$</small> {price.toFixed(2)}</h2>
+            <h2 className='fw-700 fs-5'>{title}</h2>
+            <h3 className={'fw-700 py-4 my-0 border-bottom d-flex align-items-center justify-content-center' + ' ' + priceColor}><small className='fs-2'>$</small> {price.toFixed(2)}</h3>
             <p className='fw-700 py-3 border-bottom mb-0'>{storage} Storage</p>
             <p className='fw-700 py-3 border-bottom mb-0'>{users} Users Allowed</p>
             <p className='fw-700 py-3 border-bottom mb-0'>Send up to {gb} GB</p>

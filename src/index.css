@@ -15,7 +15,7 @@ body {
     background-color:  hsl(240, 78%, 98%);
     background-image: url('/images/bg-top.svg');
     background-repeat: no-repeat;
-    background-position: right -200px top 0;
+    background-position: right -12.5rem top 0;
 }
 
 /* T E X T */
@@ -50,7 +50,7 @@ body {
 
 /* M E D I A  Q U E R I E S*/
 /* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) {  
+@media (min-width: 62rem) {  
     body {
         background-image: 
             url('/images/bg-top.svg'),
