@@ -6,8 +6,8 @@
 }
 
 .PricingToggle .toggle {
-    width: 50px;
-    height: 25px;
+    width: 3.125rem;
+    height: 1.5625rem;
     border: none;
     background-color: hsla(238, 63%, 64%, 0.735);
     --bs-form-switch-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='%23ffffff'/%3e%3c/svg%3e");
