@@ -1,0 +1,63 @@
+body {
+    max-width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    box-sizing: border-box;
+
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1rem;
+
+    background-color:  hsl(240, 78%, 98%);
+    background-image: url('/images/bg-top.svg');
+    background-repeat: no-repeat;
+    background-position: right -200px top 0;
+}
+
+/* T E X T */
+.fw-500 {
+    font-weight: 500;
+}
+
+.fw-700 {
+    font-weight: 700;
+}
+
+.text-purple {
+    color: hsl(238, 63%, 64%);
+}
+
+/* C O L O R S */
+.blue-50 {
+    color: hsl(240, 78%, 98%);
+}
+
+.gray-650 {
+    color: hsl(233, 13%, 49%);
+}
+
+.gray-700 {
+    color: hsl(232, 13%, 33%)
+}
+
+.bg-purple {
+    background-image: linear-gradient(70deg, hsl(237, 73%, 79%), hsl(238, 63%, 64%));
+}
+
+/* M E D I A  Q U E R I E S*/
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {  
+    body {
+        background-image: 
+            url('/images/bg-top.svg'),
+            url('/images/bg-bottom.svg');
+        background-position: 
+            right 0 top 0, 
+            left 0 bottom 0
+        ;    
+    }   
+}

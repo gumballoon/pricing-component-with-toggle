@@ -1,0 +1,26 @@
+.PricingCardButton {
+    border: 2px solid white;
+    border-radius: 0.5rem;
+    text-transform: uppercase;
+    letter-spacing: 0.15rem;
+    transition: 0.5s ease-out;
+}
+
+.PricingCardButton:hover {
+    border-color: hsl(238, 63%, 64%);
+    color: hsl(238, 63%, 64%) !important;
+    background-image: none;
+    background-color: white;
+}
+
+.highlight {
+    color: hsl(238, 63%, 64%) !important;
+    background-image: none;
+    background-color: white;
+}
+
+.highlight:hover {
+    border-color: white;
+    color: white !important;
+    background-color: transparent;
+}
