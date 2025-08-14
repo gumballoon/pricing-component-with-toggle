@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://gumballoon.github.io/44-pricing-component-with-toggle",
+  "homepage": "https://gumballoon.github.io/pricing-component-with-toggle",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
